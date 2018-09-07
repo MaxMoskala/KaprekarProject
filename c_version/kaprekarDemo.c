@@ -9,7 +9,6 @@ int main(int argc, char **argv) {
     fprintf(stderr, "Usage: %s n\n", argv[0]);
     exit(1);
   }
-
   int n = atoi(argv[1]);
 
   if(isKaprekar(n)) {
